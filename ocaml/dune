@@ -1,0 +1,6 @@
+(executable
+ (name linguistic)
+ (public_name semantic_doppelgangers)
+ (libraries core core_kernel core_unix angstrom yojson ppx_deriving ppx_deriving_yojson)
+ (preprocess
+  (pps ppx_deriving ppx_deriving_yojson))) 
